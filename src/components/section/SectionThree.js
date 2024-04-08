@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const SectionThree = () => {
   return (
-    <div className='flex flex-col items-center justify-evenly w-full text-center h-72 p-3'>
+    <div className='flex flex-col items-center justify-evenly w-full text-center h-72 p-3' id='sectionThree'>
       <h1 className='text-3xl font-bold'>Mais de <span className='text-red-300'>33.000</span> empresas confiam no Moloni</h1>
       <div className='flex w-full justify-evenly px-5'>
         <Carousel className='w-full'>

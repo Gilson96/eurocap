@@ -9,16 +9,8 @@ import Foot from './Foot'
 
 const Page = () => {
   return (
-    <div className='flex flex-col items-center justify-center '>
-        <SectionOne
-            title='A forma mais simples de gerir a sua empresa
-            '
-            text='Software de faturação inovador que se adapta ao seu negócio!
-            Destinado a profissionais liberais, micro, pequenas e médias empresas.
-            Sem investimento inicial, completo e intuitivo.'
-            buttonOne='Ver video'
-            buttonTwo='Experimente agora!'
-        />
+    <div className='flex flex-col items-center justify-center ' id='page'>
+        <SectionOne/>
         <SectionTwo/>
         <SectionThree/>
         <SectionFour/>

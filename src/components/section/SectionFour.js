@@ -8,45 +8,28 @@ const SectionFour = () => {
         <div className='flex flex-col w-full h-auto items-center'>
             <div className='flex flex-col items-center justify-evenly w-full text-center h-96 bg-red-500 p-5 mb-3'>
                 <h1 className='text-3xl font-bold text-white p-2 my-3 '>Software de faturação online líder em Portugal</h1>
-                {/* <div className='flex w-full justify-center gap-5 p-3'>
-                    <ArrowLeftCircleIcon className='h-20 w-20 relative top-1/3 text-white' />
-                    <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3'>
-                        <ChatBubbleLeftEllipsisIcon className='h-14 w-full text-red-300' />
-                        <h1 className='font-bold text-red-500 text-lg'>Lorem ipsum</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    </div>
-                    <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3'>
-                        <ChatBubbleLeftEllipsisIcon className='h-14 w-full text-red-300' />
-                        <h1 className='font-bold text-red-500 text-lg'>Lorem ipsum</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    </div> <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3'>
-                        <ChatBubbleLeftEllipsisIcon className='h-14 w-full text-red-300' />
-                        <h1 className='font-bold text-red-500 text-lg'>Lorem ipsum</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    </div>
-                    <ArrowRightCircleIcon className='h-20 w-20 relative top-1/3 text-white' />
-                </div> */}                                            <Carousel className='w-full'>
+                <Carousel className='w-full'>
                     <Carousel.Item>
                         <div className='flex gap-2 p-2 justify-center items-center'>
-                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3'>
+                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3' id='sectionFour-card'>
                                 <ChatBubbleLeftEllipsisIcon className='h-14 w-full text-red-300' />
                                 <h1 className='font-bold text-red-500 text-lg'>Lorem ipsum</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
 
-                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3'>
+                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3' id='sectionFour-card-hid'>
                                 <ChatBubbleLeftEllipsisIcon className='h-14 w-full text-red-300' />
                                 <h1 className='font-bold text-red-500 text-lg'>Lorem ipsum</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
 
-                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3'>
+                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3' id='sectionFour-card-hid'>
                                 <ChatBubbleLeftEllipsisIcon className='h-14 w-full text-red-300' />
                                 <h1 className='font-bold text-red-500 text-lg'>Lorem ipsum</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
 
-                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3'>
+                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3' id='sectionFour-card-hid'>
                                 <ChatBubbleLeftEllipsisIcon className='h-14 w-full text-red-300' />
                                 <h1 className='font-bold text-red-500 text-lg'>Lorem ipsum</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -58,25 +41,29 @@ const SectionFour = () => {
 
                     <Carousel.Item className='w-full'>
                         <div className='flex gap-2 p-2 justify-center items-center'>
-                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3'>
+                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3'
+                            id='sectionFour-card'>
                                 <ChatBubbleLeftEllipsisIcon className='h-14 w-full text-red-300' />
                                 <h1 className='font-bold text-red-500 text-lg'>Lorem ipsum</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
 
-                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3'>
+                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3'
+                            id='sectionFour-card-hid'>
                                 <ChatBubbleLeftEllipsisIcon className='h-14 w-full text-red-300' />
                                 <h1 className='font-bold text-red-500 text-lg'>Lorem ipsum</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
 
-                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3'>
+                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3'
+                            id='sectionFour-card-hid'>
                                 <ChatBubbleLeftEllipsisIcon className='h-14 w-full text-red-300' />
                                 <h1 className='font-bold text-red-500 text-lg'>Lorem ipsum</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
 
-                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3'>
+                            <div className='flex flex-col w-52 h-96 bg-white border border-slate-300 items-center justify-center shadow-2xl rounded-lg z-30 p-2 gap-3'
+                            id='sectionFour-card-hid'>
                                 <ChatBubbleLeftEllipsisIcon className='h-14 w-full text-red-300' />
                                 <h1 className='font-bold text-red-500 text-lg'>Lorem ipsum</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -115,9 +102,9 @@ const SectionFour = () => {
                 </div>
             </div>
 
-            <div className='flex w-10/12 h-28 bg-white shadow-lg p-2 gap-3 items-center justify-evenly  my-5'>
+            <div className='flex w-10/12 h-auto bg-white shadow-lg p-2 gap-3 items-center justify-evenly  my-5' id='sectionFour-lastCard'>
                 <UserCircleIcon className='h-14 w-14 text-red-300' />
-                <p className='text-3xl mt-2'>Registe-se e experimente grátis durante <span className='text-red-400'>30 dias!</span></p>
+                <p className='text-3xl mt-2' id='sectionFour-lastP'>Registe-se e experimente grátis durante <span className='text-red-400'>30 dias!</span></p>
                 <button className='w-40 h-16 border border-slate-200 shadow-lg rounded-lg bg-red-300 font-bold text-white'>Experimente ja</button>
             </div>
 

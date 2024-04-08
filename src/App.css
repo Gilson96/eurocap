@@ -1,0 +1,110 @@
+@media (max-width: 750px) {
+    #ecocap {
+        display: none;
+    }
+
+    #page{
+        position: relative;
+        top: 6rem;
+    }
+    #navigator {
+        position: relative;
+        
+    }
+
+    #video {
+        height: 30rem;
+        position: relative;
+        top: 0;
+        display: none;
+    }
+
+    #heading {
+        --tw-bg-opacity: 1;
+        background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+        position: relative;
+        height: 100%;
+        color:black;
+        width: 100%;
+        padding: 2rem;
+    }
+    #heading-h1{
+        color: black;
+        font-size: xx-large;
+    }
+    #heading p{
+        color: black;
+        width: 100%;
+    }
+    #heading-buttons{
+      flex-direction: column;
+    }
+    #sectionTwo{
+        background-color: white;
+        margin: 2rem 0;
+        
+    }
+    #sectionThree{
+        margin: 1rem 0 4rem 0;
+        gap: 1rem;
+    }
+    #sectionFour-card{
+        width: 25rem;
+        height: 20rem;
+    }
+    #sectionFour-card-hid{
+        display: none;
+    }
+    #sectionFour-lastCard{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    #sectionFour-lastP{
+        font-size: 1rem;
+        margin: 0;
+        text-align: center;
+    }
+    #sectionFour-lastCard button{
+        margin-bottom: 1rem;
+    }
+    #sectionSix{
+        height: 100%;
+        gap: 1rem;
+        
+    }
+    #sectionSix p{
+        text-align: justify;
+        padding: 0 2rem;
+    }
+    #sectionSix-lastP{
+        font-size: small;
+        margin-top: 1rem;
+        text-align: justify;
+    }
+    #footer{
+        height: 100%;
+    }
+    #footer h1{
+        text-align: center;
+        margin-top: 3rem;
+    }
+    #footer-firstDiv{
+        height: 50%;
+    }
+    #footer-secondDiv ul h1{
+        position: relative;
+        right: 1rem;
+    }
+    #footer-secondDiv{
+        flex-direction: column;
+    }
+    #icons{
+        position: relative;
+        right: 3rem;
+    }
+
+    #copyrighy{
+        position: relative;
+        left: 1rem;
+    }
+}
