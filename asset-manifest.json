@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/eurocap/static/css/main.988edcde.css",
-    "main.js": "/eurocap/static/js/main.8104762e.js",
+    "main.js": "/eurocap/static/js/main.14c7f73a.js",
     "static/media/randomVideo.mp4": "/eurocap/static/media/randomVideo.3e5f99fef786045fe273.mp4",
     "static/media/office.jpg": "/eurocap/static/media/office.ee91e1e51f1f903d94ba.jpg",
     "static/media/company.png": "/eurocap/static/media/company.ae2e3a63657129781aa5.png",
     "index.html": "/eurocap/index.html",
     "main.988edcde.css.map": "/eurocap/static/css/main.988edcde.css.map",
-    "main.8104762e.js.map": "/eurocap/static/js/main.8104762e.js.map"
+    "main.14c7f73a.js.map": "/eurocap/static/js/main.14c7f73a.js.map"
   },
   "entrypoints": [
     "static/css/main.988edcde.css",
-    "static/js/main.8104762e.js"
+    "static/js/main.14c7f73a.js"
   ]
 }
